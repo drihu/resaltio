@@ -242,6 +242,7 @@ ol, p, ul {
 }
 .container {
   display: table;
+  width: 100%;
   margin: auto;
   padding: 0 15px;
 }
