@@ -187,11 +187,11 @@ th {
 html {
   color: #333;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
 }
 a {
-  color: #39B;
+  color: #29E;
   text-decoration: none;
 }
 a:hover {
@@ -201,12 +201,14 @@ a:hover {
 figure {
   margin: 0;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-  margin: 10px 0;
-}
 h1 {
   font-size: 36px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin: 0 0 15px;
 }
 h2 {
   font-size: 30px;
@@ -218,10 +220,13 @@ h4 {
   font-size: 18px;
 }
 h5 {
-  font-size: 14px;
+  font-size: 15px;
 }
 h6 {
   font-size: 12px;
+}
+p {
+  font-size: 15px;
 }
 img {
   vertical-align: middle;
@@ -231,7 +236,7 @@ mark {
   padding: 0.2em;
 }
 ol, p, ul {
-  margin: 0 0 10px;
+  margin: 0 0 15px;
 }
 .container {
   display: table;
@@ -445,81 +450,93 @@ ol, p, ul {
 }
 .btn {
   display: inline-block;
-  background-color: #AAA;
+  background-color: #DDD;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   margin-bottom: 0px;
   padding: 6px 20px;
   cursor: pointer;
-  color: #FFF;
+  color: #555;
   font-size: 14px;
   text-align: center;
 }
 .btn:hover {
-  background-color: #999;
-  color: #FFF;
-}
-.btn-yellow {
-  background-color: #F5C54A;
-}
-.btn-yellow:hover {
-  background-color: #E5C53A;
-  color: #FFF;
-}
-.btn-blue {
-  background-color: #0085C6;
-}
-.btn-blue:hover {
-  background-color: #0075B6;
-  color: #FFF;
-}
-.btn-white {
-  background-color: #FFF;
-  border-color: #CCC;
+  background-color: #CCC;
   color: #333;
-}
-.btn-white:hover {
-  background-color: #EEE;
-  color: #333;
-}
-.btn-lightblue {
-  background-color: #26B2C0;
-}
-.btn-lightblue:hover {
-  background-color: #16A2B0;
-  color: #FFF;
-}
-.btn-orange {
-  background-color: #FF8C00;
-}
-.btn-orange:hover {
-  background-color: #EF7C00;
-  color: #FFF;
 }
 .btn-black {
   background-color: #333;
+  color: #FFF;
 }
 .btn-black:hover {
   background-color: #000;
   color: #FFF;
 }
-.btn-red {
-  background-color: #ED5040;
+.btn-blue {
+  background-color: #0085C6;
+  color: #FFF;
 }
-.btn-red:hover {
-  background-color: #DD4030;
+.btn-blue:hover {
+  background-color: #0075B6;
   color: #FFF;
 }
 .btn-green {
   background-color: #5CB85C;
+  color: #FFF;
 }
 .btn-green:hover {
   background-color: #4CA84C;
   color: #FFF;
 }
+.btn-orange {
+  background-color: #FF8C00;
+  color: #FFF;
+}
+.btn-orange:hover {
+  background-color: #EF7C00;
+  color: #FFF;
+}
+.btn-red {
+  background-color: #ED5040;
+  color: #FFF;
+}
+.btn-red:hover {
+  background-color: #DD4030;
+  color: #FFF;
+}
+.btn-teal {
+  background-color: #26B2C0;
+  color: #FFF;
+}
+.btn-teal:hover {
+  background-color: #16A2B0;
+  color: #FFF;
+}
+.btn-white {
+  background-color: #FFF;
+  border-color: #CCC;
+}
+.btn-white:hover {
+  background-color: #EEE;
+}
+.btn-yellow {
+  background-color: #F5C54A;
+  color: #FFF;
+}
+.btn-yellow:hover {
+  background-color: #E5C53A;
+  color: #FFF;
+}
 input {
   background-color: #FFF;
-  border: 1px solid #CCC;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  padding: 7px 10px;
+  color: #555;
+}
+textarea {
+  background-color: #FFF;
+  border: 1px solid #DDD;
   border-radius: 4px;
   padding: 7px 10px;
   color: #555;
