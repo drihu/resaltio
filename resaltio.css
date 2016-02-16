@@ -186,29 +186,30 @@ th {
 }
 html {
   color: #333;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
+::selection {
+  background-color: #C6E0FF;
+}
 a {
-  color: #29E;
+  color: #29D;
   text-decoration: none;
 }
 a:hover {
-  color: #179;
+  color: #17A;
   text-decoration: underline;
 }
 figure {
   margin: 0;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin: 0 0 1rem;
+}
 h1 {
   font-size: 36px;
-  font-weight: 700;
-  margin: 15px 0;
-}
-h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  margin: 0 0 15px;
 }
 h2 {
   font-size: 30px;
@@ -225,9 +226,6 @@ h5 {
 h6 {
   font-size: 12px;
 }
-p {
-  font-size: 15px;
-}
 img {
   vertical-align: middle;
 }
@@ -235,8 +233,33 @@ mark {
   background-color: #FFA;
   padding: 0.2em;
 }
-ol, p, ul {
-  margin: 0 0 15px;
+p, ol, ul {
+  margin: 0 0 1rem;
+}
+input,
+textarea {
+  width: 100%;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  padding: 7px 10px;
+  color: #444;
+  outline: 0;
+}
+input {
+  display: inline-block;
+  vertical-align: middle;
+}
+input[type="checkbox"] {
+  width: 20px;
+}
+input:hover,
+textarea:hover {
+  border-color: #BBB;
+}
+input:focus,
+textarea:focus {
+  border-color: #7BE;
 }
 .container {
   display: table;
@@ -450,35 +473,39 @@ ol, p, ul {
 }
 .btn {
   display: inline-block;
-  background-color: #DDD;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #E5E5E5;
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 4px;
-  margin-bottom: 0px;
-  padding: 6px 20px;
+  margin-bottom: 4px;
+  padding: 7px 24px;
   cursor: pointer;
-  color: #555;
-  font-size: 15px;
+  color: #444;
   text-align: center;
 }
 .btn:hover {
-  background-color: #CCC;
-  color: #333;
+  background-color: #D5D5D5;
+  box-shadow: 0 2px 7px #BBB;
 }
 .btn-black {
-  background-color: #333;
+  background-color: #3C3C3C;
   color: #FFF;
 }
 .btn-black:hover {
-  background-color: #000;
-  color: #FFF;
+  background-color: #212121;
 }
 .btn-blue {
-  background-color: #0085C6;
+  background-color: #2085D0;
   color: #FFF;
 }
 .btn-blue:hover {
-  background-color: #0075B6;
+  background-color: #1075C0;
+}
+.btn-brown {
+  background-color: #A5673F;
   color: #FFF;
+}
+.btn-brown:hover {
+  background-color: #975B33;
 }
 .btn-green {
   background-color: #5CB85C;
@@ -486,7 +513,13 @@ ol, p, ul {
 }
 .btn-green:hover {
   background-color: #4CA84C;
+}
+.btn-olive {
+  background-color: #B5CC18;
   color: #FFF;
+}
+.btn-olive:hover {
+  background-color: #A7BD0D;
 }
 .btn-orange {
   background-color: #FF8C00;
@@ -494,15 +527,13 @@ ol, p, ul {
 }
 .btn-orange:hover {
   background-color: #EF7C00;
-  color: #FFF;
 }
 .btn-red {
-  background-color: #ED5040;
+  background-color: #F05040;
   color: #FFF;
 }
 .btn-red:hover {
-  background-color: #DD4030;
-  color: #FFF;
+  background-color: #E04030;
 }
 .btn-teal {
   background-color: #26B2C0;
@@ -510,27 +541,18 @@ ol, p, ul {
 }
 .btn-teal:hover {
   background-color: #16A2B0;
-  color: #FFF;
 }
 .btn-white {
   background-color: #FFF;
-  border-color: #CCC;
+  border-color: #DDD;
 }
 .btn-white:hover {
   background-color: #EEE;
 }
 .btn-yellow {
-  background-color: #F5C54A;
+  background-color: #FBBD10;
   color: #FFF;
 }
 .btn-yellow:hover {
-  background-color: #E5C53A;
-  color: #FFF;
-}
-input, textarea {
-  background-color: #FFF;
-  border: 1px solid #DDD;
-  border-radius: 4px;
-  padding: 7px 10px;
-  color: #555;
+  background-color: #EAAE00;
 }
