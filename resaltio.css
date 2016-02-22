@@ -544,10 +544,10 @@ textarea:focus {
 }
 .btn-white {
   background-color: #FFF;
-  border-color: #DDD;
+  border-color: #CCC;
 }
 .btn-white:hover {
-  background-color: #EEE;
+  background-color: #F8F8F8;
 }
 .btn-yellow {
   background-color: #FBBD10;
