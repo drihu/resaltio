@@ -483,8 +483,12 @@ textarea:focus {
   text-align: center;
 }
 .btn:hover {
-  background-color: #D5D5D5;
+  background-color: #DDD;
   box-shadow: 0 2px 7px #BBB;
+  color: #444;
+}
+a.btn:hover {
+  text-decoration: none;
 }
 .btn-black {
   background-color: #3C3C3C;
@@ -492,6 +496,7 @@ textarea:focus {
 }
 .btn-black:hover {
   background-color: #212121;
+  color: #FFF;
 }
 .btn-blue {
   background-color: #2085D0;
@@ -499,6 +504,7 @@ textarea:focus {
 }
 .btn-blue:hover {
   background-color: #1075C0;
+  color: #FFF;
 }
 .btn-brown {
   background-color: #A5673F;
@@ -506,6 +512,7 @@ textarea:focus {
 }
 .btn-brown:hover {
   background-color: #975B33;
+  color: #FFF;
 }
 .btn-green {
   background-color: #5CB85C;
@@ -513,6 +520,7 @@ textarea:focus {
 }
 .btn-green:hover {
   background-color: #4CA84C;
+  color: #FFF;
 }
 .btn-olive {
   background-color: #B5CC18;
@@ -520,6 +528,7 @@ textarea:focus {
 }
 .btn-olive:hover {
   background-color: #A7BD0D;
+  color: #FFF;
 }
 .btn-orange {
   background-color: #FF8C00;
@@ -527,6 +536,7 @@ textarea:focus {
 }
 .btn-orange:hover {
   background-color: #EF7C00;
+  color: #FFF;
 }
 .btn-red {
   background-color: #F05040;
@@ -534,6 +544,7 @@ textarea:focus {
 }
 .btn-red:hover {
   background-color: #E04030;
+  color: #FFF;
 }
 .btn-teal {
   background-color: #26B2C0;
@@ -541,13 +552,16 @@ textarea:focus {
 }
 .btn-teal:hover {
   background-color: #16A2B0;
+  color: #FFF;
 }
 .btn-white {
   background-color: #FFF;
   border-color: #CCC;
+  color: #444;
 }
 .btn-white:hover {
   background-color: #F8F8F8;
+  color: #444;
 }
 .btn-yellow {
   background-color: #FBBD10;
@@ -555,4 +569,5 @@ textarea:focus {
 }
 .btn-yellow:hover {
   background-color: #EAAE00;
+  color: #FFF;
 }
